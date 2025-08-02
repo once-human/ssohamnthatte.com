@@ -1,0 +1,6 @@
+# Disable Jekyll processing completely
+plugins: []
+markdown: kramdown
+highlighter: rouge
+# Disable Jekyll
+exclude: ["src", "node_modules", "package.json", "package-lock.json", "next.config.mjs", ".github"] 
